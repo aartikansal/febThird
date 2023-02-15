@@ -12,7 +12,6 @@ public class MenuRunner {
         int number2 = scanner.nextInt();
         System.out.println(" The number you entered is=  " + number2);
 
-
         System.out.println(" Choices available are ");
         System.out.println(" 1-Add");
         System.out.println(" 2-Subtract");
@@ -29,11 +28,7 @@ public class MenuRunner {
         performOperationsUsingSwitch(number1, number2, choice);
         System.out.println(SwitchExcercisesRunner.determineNameOfDay(2));
         System.out.println(SwitchExcercisesRunner.isWeekday(2));
-
     }
-
-
-
     private static void performOperationsUsingSwitch(int number1, int number2, int choice) {
         switch (choice) {
             case 1:

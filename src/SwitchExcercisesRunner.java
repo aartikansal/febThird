@@ -1,12 +1,12 @@
-public class SwitchExcercisesRunner {
-    public static void main(String[] args) {
+ class SwitchExcercisesRunner {
+    /*public static void main(String[] args) {
 
 
         System.out.println(determineNameOfDay(2));
-        System.out.println(isWeekday(2));
-    }
+        System.out.println(isWeekday(3));
+    }*/
 
-    public static boolean isWeekday(int dayNumber) {
+     static boolean isWeekday(int dayNumber) {
         switch (dayNumber) {
             case 0, 6: //merge cases that are false
                 return false;
@@ -18,7 +18,7 @@ public class SwitchExcercisesRunner {
 
 
 
-    public static String determineNameOfDay(int dayNumber) {
+     static String determineNameOfDay(int dayNumber) {
 
         switch (dayNumber) {
             case 0:
