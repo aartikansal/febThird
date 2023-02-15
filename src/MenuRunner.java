@@ -27,7 +27,10 @@ public class MenuRunner {
         System.out.println("Number2 " + number2);
         System.out.println("Choice " + choice);
         performOperationsUsingSwitch(number1, number2, choice);
+
     }
+
+
 
     private static void performOperationsUsingSwitch(int number1, int number2, int choice) {
         switch (choice) {
@@ -48,6 +51,7 @@ public class MenuRunner {
                 break;
                 // Switch works on byte , short , char , and int primitive data types. Enum,string, char, byte, short, integer.
             //The switch statement doesn't accept arguments of type long, float, double,boolean or any object besides String.
+
 
         }
     }
