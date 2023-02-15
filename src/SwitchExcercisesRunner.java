@@ -1,37 +1,44 @@
-public class SwitchExcercisesRunner {
-    public static void main(String[] args)
-      {
-        System.out.println(determineNameOfDay(1));
-    }
+ public class SwitchExcercisesRunner {
+     public static void main(String[] args) {
 
-    public static String determineNameOfDay(int dayNumber) {
 
-        switch (dayNumber) {
-            case 0:
-                return "Sunday";
 
-            case 1:
-                return  "Monday";
+             System.out.println(determineNameOfDay(2));
+         }
 
-            case 2:
-                return "Tuesday";
+             public static String determineNameOfDay ( int dayNumber){
 
-            case 3:
-                return "Wednesday";
+             switch (dayNumber) {
+                 case 0:
+                     return "Sunday";
 
-            case 4:
-                return "Thursday";
+                 case 1:
+                     return "Monday";
 
-            case 5:
-                return"Friday";
+                 case 2:
+                     return "Tuesday";
 
-            case 6:
-                return"Saturday";
+                 case 3:
+                     return "Wednesday";
 
-        }
-        return "Invalid Day";
-    }
-}
+                 case 4:
+                     return "Thursday";
+
+                 case 5:
+                     return "Friday";
+
+                 case 6:
+                     return "Saturday";
+
+             }
+             return "Invalid Day";
+         }
+
+
+         }
+
+
+
 
 
 
