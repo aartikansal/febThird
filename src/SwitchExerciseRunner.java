@@ -1,10 +1,4 @@
- class SwitchExcercisesRunner {
-    /*public static void main(String[] args) {
-
-
-        System.out.println(determineNameOfDay(2));
-        System.out.println(isWeekday(3));
-    }*/
+ class SwitchExerciseRunner {
 
      static boolean isWeekday(int dayNumber) {
         switch (dayNumber) {

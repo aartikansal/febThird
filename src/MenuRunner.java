@@ -26,8 +26,8 @@ public class MenuRunner {
         System.out.println("Number2 " + number2);
         System.out.println("Choice " + choice);
         performOperationsUsingSwitch(number1, number2, choice);
-        System.out.println(SwitchExcercisesRunner.determineNameOfDay(2));
-        System.out.println(SwitchExcercisesRunner.isWeekday(2));
+        System.out.println(SwitchExerciseRunner.determineNameOfDay(2));
+        System.out.println(SwitchExerciseRunner.isWeekday(2));
     }
     private static void performOperationsUsingSwitch(int number1, int number2, int choice) {
         switch (choice) {
