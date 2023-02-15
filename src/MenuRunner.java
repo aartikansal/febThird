@@ -46,6 +46,9 @@ public class MenuRunner {
             default:
                 System.out.println("Invalid Operation");
                 break;
+                // Switch works on byte , short , char , and int primitive data types. Enum,string, char, byte, short, integer.
+            //The switch statement doesn't accept arguments of type long, float, double,boolean or any object besides String.
+
         }
     }
 }
